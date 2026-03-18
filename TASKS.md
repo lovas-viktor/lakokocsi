@@ -1,0 +1,26 @@
+# TASKS
+
+- [x] Super Prompt Elemzés bemutatása és pontosítás
+- [x] Maxi N126NTL specifikációk elemzése
+- [x] Opel Astra vontatási adatok pontosítása
+- [x] Piackutatás: Kecskeméti konkurencia és árak
+- [x] Költségbecslés és megtérülési terv
+- [x] Bérlési szabályzat kidolgozása
+- [x] Kockázatkezelési stratégia (Lopás, Törés)
+- [x] Alternatív típusok keresése
+- [x] Beszerzési források és import elemzése
+- [x] Komplett Üzleti Terv (Minden egyben) összeállítása
+- [x] Végső ajánlás és walkthrough összeállítása
+- [/] Profi Landing Page végső finomítása (lakokocsi-kecskemet.hu)
+  - [x] Tisztított, felirat nélküli kültéri hero kép készítése és beállítása
+  - [x] Bővített galéria nagyítás (lightbox) funkcióval
+  - [x] Szezonalitás szerinti árazás bevezetése (Főszezon/Mellékszezon)
+  - [x] Bérlés folyamatának részletes, strukturált bemutatása
+    - [x] Folyamat-rész szétesett elrendezésének javítása <!-- id: 1 -->
+      - [x] Implementációs terv készítése <!-- id: 2 -->
+      - [x] HTML és CSS osztályok összehangolása <!-- id: 3 -->
+      - [x] Modern, kártya-alapú folyamat-megjelenítés kialakítása <!-- id: 4 -->
+      - [x] Vizuális összekötő elemek hozzáadása <!-- id: 5 -->
+      - [x] Reszponzivitás ellenőrzése és javítása <!-- id: 6 -->
+  - [ ] Foglaltsági naptár elrejtése gombnyomásig + E-mail küldés (Formspree)
+  - [ ] SEO és domain véglegesítése, piackutatási utalások eltávolítása

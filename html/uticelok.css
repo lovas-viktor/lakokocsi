@@ -1,0 +1,416 @@
+/* ===== Destinations Page Styles ===== */
+
+/* Hero */
+.dest-hero {
+    margin-top: 72px;
+    padding: 80px 0 60px;
+    background: linear-gradient(135deg, #f0f7f4 0%, #e8f5e9 50%, #f0f7f4 100%);
+    border-bottom: 1px solid var(--border);
+}
+
+.dest-hero h1 {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    line-height: 1.1;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+
+.dest-hero p {
+    font-size: 1.15rem;
+    color: var(--light-text);
+    max-width: 600px;
+    line-height: 1.7;
+}
+
+/* Category navigation pills */
+.category-nav-section {
+    padding: 24px 0;
+    position: sticky;
+    top: 72px;
+    z-index: 100;
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--border);
+}
+
+.category-pills {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+}
+
+.cat-pill {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--light-text);
+    background: var(--bg-alt);
+    border: 1px solid var(--border);
+    white-space: nowrap;
+    transition: var(--transition);
+}
+
+.cat-pill:hover,
+.cat-pill.active {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+
+/* Section headers */
+.section-header {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.section-subtitle {
+    color: var(--light-text);
+    font-size: 1.05rem;
+    max-width: 700px;
+    margin: -32px auto 0;
+    line-height: 1.7;
+}
+
+.dest-section {
+    padding: 80px 0;
+}
+
+/* Destination card grid */
+.dest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 28px;
+}
+
+/* Destination card */
+.dest-card {
+    background: #fff;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.dest-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow);
+}
+
+/* Card image area */
+.dest-card-img {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.dest-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.dest-card:hover .dest-card-img img {
+    transform: scale(1.05);
+}
+
+.dest-price-badge {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    background: var(--primary);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.85rem;
+    padding: 6px 14px;
+    border-radius: 100px;
+}
+
+.dest-year-badge {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #e65100;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.75rem;
+    padding: 4px 12px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Card body */
+.dest-card-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.dest-card-top {
+    margin-bottom: 12px;
+}
+
+.dest-card-top h3 {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    color: var(--primary);
+    margin-bottom: 4px;
+    line-height: 1.3;
+}
+
+.dest-location {
+    font-size: 0.82rem;
+    color: var(--accent);
+    font-weight: 500;
+}
+
+.dest-card-body > p {
+    font-size: 0.92rem;
+    color: var(--light-text);
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+/* Tags */
+.dest-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 100px;
+    background: #f0f7f4;
+    color: var(--accent);
+    border: 1px solid rgba(45, 106, 79, 0.15);
+}
+
+.tag-hot {
+    background: #fff3e0;
+    color: #e65100;
+    border-color: rgba(230, 81, 0, 0.2);
+}
+
+/* Highlights */
+.dest-highlights {
+    margin-bottom: 16px;
+    flex: 1;
+}
+
+.highlight {
+    font-size: 0.85rem;
+    color: var(--light-text);
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.highlight strong {
+    color: var(--text);
+}
+
+/* Card footer */
+.dest-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    margin-top: auto;
+}
+
+.dest-gps {
+    font-size: 0.78rem;
+    color: var(--light-text);
+    font-family: monospace;
+    cursor: default;
+}
+
+.dest-link {
+    font-size: 0.88rem;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    transition: color var(--transition);
+}
+
+.dest-link:hover {
+    color: var(--primary);
+}
+
+/* Festival grid */
+.festival-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.festival-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #fff;
+    border-radius: var(--radius-sm);
+    padding: 20px 24px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+    transition: var(--transition);
+}
+
+.festival-card:hover {
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+}
+
+.festival-month {
+    font-size: 0.82rem;
+    font-weight: 800;
+    color: #fff;
+    background: var(--primary);
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    min-width: 52px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.festival-info h4 {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: var(--primary);
+    margin-bottom: 2px;
+}
+
+.festival-info span {
+    font-size: 0.85rem;
+    color: var(--light-text);
+}
+
+/* Tips grid */
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.tip-card {
+    background: #fff;
+    border-radius: var(--radius);
+    padding: 28px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+}
+
+.tip-card h4 {
+    font-family: var(--font-heading);
+    color: var(--primary);
+    font-size: 1.15rem;
+    margin-bottom: 12px;
+}
+
+.tip-card p {
+    font-size: 0.92rem;
+    color: var(--light-text);
+    line-height: 1.7;
+}
+
+/* CTA section */
+.dest-cta {
+    padding: 80px 0;
+}
+
+.dest-cta .booking-block {
+    padding: 80px 32px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 992px) {
+    .dest-hero h1 {
+        font-size: 2.6rem;
+    }
+
+    .dest-grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .dest-cta .booking-block {
+        padding: 56px 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dest-hero {
+        padding: 56px 0 40px;
+    }
+
+    .dest-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .dest-section {
+        padding: 56px 0;
+    }
+
+    .dest-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .category-nav-section {
+        top: 56px;
+    }
+
+    .category-pills {
+        gap: 8px;
+    }
+
+    .cat-pill {
+        padding: 8px 16px;
+        font-size: 0.82rem;
+    }
+
+    .festival-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .tips-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-subtitle {
+        margin-top: -24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dest-hero h1 {
+        font-size: 1.9rem;
+    }
+
+    .dest-card-img {
+        height: 180px;
+    }
+
+    .dest-cta .booking-block {
+        padding: 48px 20px;
+        border-radius: 16px;
+    }
+
+    .dest-cta .booking-block h2 {
+        font-size: 1.8rem;
+    }
+}

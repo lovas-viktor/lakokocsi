@@ -1,0 +1,1222 @@
+{
+  "meta": {
+    "title": "Lakokocsi Celallomas Magyarorszagon",
+    "description": "Lakokocsi es lakoauto barathelyek Magyarorszagon - olcso es ingyenes megallasi lehetosegek",
+    "lastUpdated": "2026-03-18",
+    "totalDestinations": 24,
+    "disclaimer": "Az arak tajekoztatjeleguek, a pontos dijakat mindig ellenorizze a helyszinen vagy a szolgaltato weboldalan. A vadon kempingezes (wild camping) Magyarorszagon hivatalosan tilos, de videki tersegekben altalaban toleraljak. Mindig kerjen engedelyt a foldtulajdonostol."
+  },
+  "categories": [
+    {
+      "id": "balaton",
+      "name": "Balaton es kornyeke",
+      "icon": "🏖️",
+      "description": "A magyar tenger partjan szamos kemping varja a lakokocsis vendegeket, a Balaton-felvidek boraszataival es termeszetvedelmiteruleteivel egyutt."
+    },
+    {
+      "id": "thermal",
+      "name": "Termalfurdok es gyogyhelyek",
+      "icon": "♨️",
+      "description": "Magyarorszag termalviz-nagyhatalomkent szamos furdovaros kinal kemping lehetoseget kozvetlen furdohasznallattal."
+    },
+    {
+      "id": "national-parks",
+      "name": "Nemzeti parkok es termeszetvedelmiterulertek",
+      "icon": "🌿",
+      "description": "Nemzeti parkjaink kozeleben talalhatokempingek a termeszet szerelmesei szamara."
+    },
+    {
+      "id": "rivers-lakes",
+      "name": "Folyok es tavak - horgaszhelyek",
+      "icon": "🎣",
+      "description": "Vizparti kempingek horgaszlehetoseggel a Tisza-to, Velencei-to es mas vizek mentein."
+    },
+    {
+      "id": "wine",
+      "name": "Borvidekek",
+      "icon": "🍷",
+      "description": "Magyarorszag vilaghiru borvidekein lakokocsivaul is felfedezhetoek a pinceszetek es borutak."
+    },
+    {
+      "id": "festivals",
+      "name": "Fesztivalhelyszinek",
+      "icon": "🎵",
+      "description": "A nagy magyar fesztivalok tobbsege kinal lakokocsis kempinget a rendezveny idejen."
+    }
+  ],
+  "destinations": [
+    {
+      "id": 1,
+      "name": "Mirabella Camping, Zamardi",
+      "slug": "mirabella-camping-zamardi",
+      "category": "balaton",
+      "location": {
+        "city": "Zamardi",
+        "county": "Somogy",
+        "region": "Del-Dunantul",
+        "gps": {
+          "lat": 46.8871,
+          "lng": 17.9525
+        },
+        "address": "Zamardi, Balaton part"
+      },
+      "description": "Kozvetlenul a Balaton partjan fekvo kemping sajat partszakasszal Zamardibanban. Kenyelmes mobilhazak es kulonbozo meretu lakokocsi parcellak (60-130 nm) allnak rendelkezesre. Az EFOTT fesztival helyszinenek szomszeddsagaban.",
+      "pricing": {
+        "range": "kozepes",
+        "priceFrom": "5000 Ft/ej parcella + szemely/ej dij",
+        "electricityIncluded": true,
+        "notes": "Arak szezon es parcellameret szerint valtoznak. Online arkalkulacio elerheto a weboldalon."
+      },
+      "facilities": [
+        "aram (16A)",
+        "vizcsatlakozas",
+        "szennyvizurrites",
+        "zuhanyzok",
+        "mosoda",
+        "etterem",
+        "jatszooter",
+        "wifi",
+        "sajat strand"
+      ],
+      "nearbyAttractions": [
+        "Zamardi szabadstrand",
+        "Szantodpuszta",
+        "Tihany (komp)",
+        "Balaton Sound / EFOTT fesztival kornyeke",
+        "Siofok (10 km)"
+      ],
+      "rules": [
+        "Kutyak porazzan engedelyezettek",
+        "Csendes pihenoidoe 22:00-06:00"
+      ],
+      "bestSeason": "majus-szeptember",
+      "yearRound": false,
+      "website": "https://mirabellacamping.hu/",
+      "imageQuery": "zamardi balaton camping shore"
+    },
+    {
+      "id": 2,
+      "name": "Caravan Camping, Gyenesdias",
+      "slug": "caravan-camping-gyenesdias",
+      "category": "balaton",
+      "location": {
+        "city": "Gyenesdias",
+        "county": "Zala",
+        "region": "Nyugat-Dunantul",
+        "gps": {
+          "lat": 46.7650,
+          "lng": 17.2900
+        },
+        "address": "8315 Gyenesdias, Madach utca 43."
+      },
+      "description": "Minositett kemping 150 meterre a Balaton parttol, a Keszthely kozeli Gyenesdias dijakkal jutalmazott strandjanak szomszeddsagaban. Uszomedence, cocktail bar es kerekpar kolcsonzes.",
+      "pricing": {
+        "range": "kozepes",
+        "priceFrom": "27-35 EUR/ej",
+        "electricityIncluded": true,
+        "notes": "Az ar parcella + 2 szemely. Szezon szerint valtozik."
+      },
+      "facilities": [
+        "aram (16A)",
+        "ket modern szanitaer-epulet",
+        "mosoda",
+        "uszomedence",
+        "cocktail bar",
+        "etterem",
+        "kerekpar kolcsonzes",
+        "wifi"
+      ],
+      "nearbyAttractions": [
+        "Gyenesdias strand (150 m)",
+        "Keszthely - Festetics-kastely (3 km)",
+        "Heviz termalto (6 km)",
+        "Kis-Balaton termeszetvedelmiterumlet",
+        "Badacsony borvidek (20 km)"
+      ],
+      "rules": [
+        "100 parcella aramcsatlakozassal",
+        "Haziallat engedelyezett"
+      ],
+      "bestSeason": "majus-szeptember",
+      "yearRound": false,
+      "website": "https://caravancamping.hu/en/",
+      "imageQuery": "gyenesdias balaton camping"
+    },
+    {
+      "id": 3,
+      "name": "Badacsony Camping",
+      "slug": "badacsony-camping",
+      "category": "balaton",
+      "location": {
+        "city": "Badacsony",
+        "county": "Veszprem",
+        "region": "Kozep-Dunantul",
+        "gps": {
+          "lat": 46.7920,
+          "lng": 17.4920
+        },
+        "address": "Badacsony, Balaton-part"
+      },
+      "description": "A vulkanikus Badacsony-hegy labanal, a borvidek sziveben fekvo kemping kozvetlenul a Balaton mellett. 500 meterre a kikoto, eelttermek es borozok. Otfele meretu parcella, mindegyik aramcsatlakozassal.",
+      "pricing": {
+        "range": "kozepes",
+        "priceFrom": "5000-8000 Ft/ej parcella",
+        "electricityIncluded": true,
+        "notes": "Arak szezon szerint valtoznak."
+      },
+      "facilities": [
+        "aram (16A)",
+        "vizcsatlakozas",
+        "szanitaer blokk",
+        "mobilhazak",
+        "wifi"
+      ],
+      "nearbyAttractions": [
+        "Badacsony-hegy turazasi lehetosegek",
+        "Badacsony borpincek es borut",
+        "Setahajozas a Balatonon",
+        "Szigliget var (10 km)",
+        "Balaton-felvideki Nemzeti Park"
+      ],
+      "rules": [
+        "Szezonalis nyitva tartas (altalaban majus-szeptember)"
+      ],
+      "bestSeason": "junius-szeptember (borhet: szeptember)",
+      "yearRound": false,
+      "website": "https://badacsonycamping.hu/en/",
+      "imageQuery": "badacsony balaton wine hill camping"
+    },
+    {
+      "id": 4,
+      "name": "Balaton Eldorado Camping",
+      "slug": "balaton-eldorado-camping",
+      "category": "balaton",
+      "location": {
+        "city": "Badacsonylabdihegy",
+        "county": "Veszprem",
+        "region": "Kozep-Dunantul",
+        "gps": {
+          "lat": 46.8080,
+          "lng": 17.4450
+        },
+        "address": "Badacsonylabdihegy, 71-es fout"
+      },
+      "description": "Csaladias jellegu 3 hektaros kemping Badacsony es Szigliget kozott, kozvetlenul a Balaton partjan. 60-100 nm-es taagas parcellak. A vizparti parcellakrol csodas latas nyilik a Balatonra.",
+      "pricing": {
+        "range": "olcso-kozepes",
+        "priceFrom": "4000-6000 Ft/ej parcella",
+        "electricityIncluded": true,
+        "notes": "Csaladias, kisebb kemping kedvezo arakkal."
+      },
+      "facilities": [
+        "aram",
+        "vizcsatlakozas",
+        "szanitaer blokk",
+        "fozes lehetoseg",
+        "sajat strand"
+      ],
+      "nearbyAttractions": [
+        "Badacsony borvidek",
+        "Szigliget var",
+        "Balaton-felvideki Nemzeti Park",
+        "Tapolcai tavasbarlang"
+      ],
+      "rules": [
+        "Csaladias, csendes kornyezet"
+      ],
+      "bestSeason": "majus-szeptember",
+      "yearRound": false,
+      "website": "https://www.balatoneldoradocamping.hu/",
+      "imageQuery": "balaton eldorado camping waterfront"
+    },
+    {
+      "id": 5,
+      "name": "Aranypart Camping, Siofok",
+      "slug": "aranypart-camping-siofok",
+      "category": "balaton",
+      "location": {
+        "city": "Siofok",
+        "county": "Somogy",
+        "region": "Del-Dunantul",
+        "gps": {
+          "lat": 46.9020,
+          "lng": 18.0580
+        },
+        "address": "Siofok, Aranypart"
+      },
+      "description": "A Balaton deli partjanak egyik legnepszerubb kempingje Siofokoon, lakokocsi parcellakkal es apartmanokkal. Kozel a varos szorakozohelyeihez es strandjaihhoz.",
+      "pricing": {
+        "range": "kozepes",
+        "priceFrom": "6000-10000 Ft/ej parcella",
+        "electricityIncluded": true,
+        "notes": "Foszezoni arak magasabbak."
+      },
+      "facilities": [
+        "aram (16A)",
+        "vizcsatlakozas",
+        "szennyvizurities",
+        "etterem",
+        "strand",
+        "wifi",
+        "szupermarket kozelseg"
+      ],
+      "nearbyAttractions": [
+        "Siofok strandok",
+        "Siofok belvaros es ejszakai elet",
+        "Zamardi",
+        "Balaton-Szetrajzolas"
+      ],
+      "rules": [
+        "Online foglaldas ajanlott a foszezoneban"
+      ],
+      "bestSeason": "junius-augusztus",
+      "yearRound": false,
+      "website": "https://aranypartcamping.hu/en/",
+      "imageQuery": "siofok balaton camping"
+    },
+    {
+      "id": 6,
+      "name": "Castrum Gyogykemping, Heviz",
+      "slug": "castrum-kemping-heviz",
+      "category": "thermal",
+      "location": {
+        "city": "Heviz",
+        "county": "Zala",
+        "region": "Nyugat-Dunantul",
+        "gps": {
+          "lat": 46.7870,
+          "lng": 17.1850
+        },
+        "address": "Heviz, kemping terulet"
+      },
+      "description": "220 szamozott parcella a vilag legnagyobb termeszetes bioldogiailag aktiv meleg vizu tavatal 100 meterre. A Hevizi-to vizcsatlakozaso 1 perc sevtara a kempinetol. Soveenyekkel elvallasztott, arnyas parcellak aram- es reszben viz/csatorna-csatlakozassal.",
+      "pricing": {
+        "range": "kozepes",
+        "priceFrom": "6000-10000 Ft/ej parcella + szemelyi dij",
+        "electricityIncluded": true,
+        "notes": "A furdohasznalat kulon dijas. Egész evben nyitva."
+      },
+      "facilities": [
+        "aram",
+        "viz- es csatornaccsatlakozas (reszben)",
+        "TV kabel",
+        "24 ooras recepccio",
+        "etterem",
+        "bolt",
+        "masszazs",
+        "futtott kulteri medence",
+        "jatszother",
+        "shuttle busz a tohoz"
+      ],
+      "nearbyAttractions": [
+        "Hevizi-termalto (100 m)",
+        "Keszthely - Festetics-kastely (6 km)",
+        "Kis-Balaton Latoogatokozpont",
+        "Balaton (6 km)",
+        "Zalaegerszeg"
+      ],
+      "rules": [
+        "Egesz evben nyitva",
+        "Udulesi csekk elfogadhato"
+      ],
+      "bestSeason": "egesz evben (a termalto 24-38 °C egesz evben)",
+      "yearRound": true,
+      "website": "https://campingheviz.eu/en/",
+      "imageQuery": "heviz thermal lake camping"
+    },
+    {
+      "id": 7,
+      "name": "Hungarospa Thermal Camping, Hajduszoboszlo",
+      "slug": "hungarospa-thermal-camping",
+      "category": "thermal",
+      "location": {
+        "city": "Hajduszoboszlo",
+        "county": "Hajdu-Bihar",
+        "region": "Eszak-Alfold",
+        "gps": {
+          "lat": 47.4480,
+          "lng": 21.3920
+        },
+        "address": "4200 Hajduszoboszlo, Bolyai Janos u. 2."
+      },
+      "description": "300 lakokocsi hely elektromos es ivoviz-csatlakozassal. A kemping vendegei ingyenesen hasznalhatjak a Hungarospa Termalfurdott es az Arpad Fedett Uszodaat egesz evben. Magyarorszag egyik legnagyobb furdo komplexuma.",
+      "pricing": {
+        "range": "kozepes-draga",
+        "priceFrom": "49-60 EUR/ej (parcella + 2 fo)",
+        "electricityIncluded": true,
+        "notes": "Furdobeleepo ingyenes a kemping vendegei szamara!"
+      },
+      "facilities": [
+        "aram (16A)",
+        "ivoviz csatlakozas",
+        "szennyvizurrites",
+        "termalfurdo ingyenes hasznalat",
+        "etterem",
+        "bolt",
+        "wifi",
+        "jatszother",
+        "sportpalyyak"
+      ],
+      "nearbyAttractions": [
+        "Hungarospa Termalfurdo (kozvetlen)",
+        "Hajduszoboszlo belvaros",
+        "Hortobagyi Nemzeti Park (30 km)",
+        "Debrecen (20 km)"
+      ],
+      "rules": [
+        "Egesz evben nyitva",
+        "A furdo hasznalathoz a kempinghigazolvany szukseges"
+      ],
+      "bestSeason": "egesz evben (nyaron kulteri aquapark is)",
+      "yearRound": true,
+      "website": "https://hungarospa.hu/en/thermalcamping/",
+      "imageQuery": "hajduszoboszlo thermal camping aquapark"
+    },
+    {
+      "id": 8,
+      "name": "Thermal Camping, Sarvar",
+      "slug": "thermal-camping-sarvar",
+      "category": "thermal",
+      "location": {
+        "city": "Sarvar",
+        "county": "Vas",
+        "region": "Nyugat-Dunantul",
+        "gps": {
+          "lat": 47.2540,
+          "lng": 16.9360
+        },
+        "address": "Sarvar, furdo terulet"
+      },
+      "description": "89 parcella (kb 100 nm) lakokocssik szamara, 14 mobilhaz es 6 apartman. Ingyenes es korlatlan belepes a Sarvari Furdo- es Wellness Kozponttba (tobb mint 5000 nm vizfelulet) a tartlozkodasd idejen.",
+      "pricing": {
+        "range": "kozepes",
+        "priceFrom": "7000-12000 Ft/ej parcella + szemelyi dij",
+        "electricityIncluded": true,
+        "notes": "Furdobeleepo ingyenes a kemping vendegei szamara!"
+      },
+      "facilities": [
+        "aram (16A)",
+        "vizcsatlakozas",
+        "szennyvizurrites",
+        "termalfurdo ingyenes hasznalat",
+        "mobilhazak",
+        "apartmanok",
+        "wifi"
+      ],
+      "nearbyAttractions": [
+        "Sarvari Furdo es Wellness Kozpont (kozvetlen)",
+        "Nadasdy-var es muzeum",
+        "Sarvar belvaros",
+        "Sarvari Arboretum",
+        "Orsegi Nemzeti Park (50 km)"
+      ],
+      "rules": [
+        "Egesz evben nyitva"
+      ],
+      "bestSeason": "egesz evben",
+      "yearRound": true,
+      "website": "https://thermalcamping.com/en/",
+      "imageQuery": "sarvar thermal camping wellness"
+    },
+    {
+      "id": 9,
+      "name": "Termal Kemping, Harkany",
+      "slug": "termal-kemping-harkany",
+      "category": "thermal",
+      "location": {
+        "city": "Harkany",
+        "county": "Baranya",
+        "region": "Del-Dunantul",
+        "gps": {
+          "lat": 45.8520,
+          "lng": 18.2360
+        },
+        "address": "7815 Harkany, kemping terulet"
+      },
+      "description": "A Villanyi-hegyseg labanal, a kozel 200 eves multu kenes gyogyfurdo szomszeddsagaban. Pecstol 25 km, Villanytol 15 km, a Dravatol 5 km. Negycsillagos felujitott foepulet es modern lakokocsi helyek.",
+      "pricing": {
+        "range": "olcso-kozepes",
+        "priceFrom": "5000 Ft/teruleti dij + 3000 Ft/fo/ej",
+        "electricityIncluded": true,
+        "notes": "IFA: 700 Ft/fo/ej (18 ev felett). A Villanyi boruttal kombinalhato."
+      },
+      "facilities": [
+        "aram",
+        "vizcsatlakozas",
+        "wellness",
+        "teniszpalya",
+        "masszazsok",
+        "etterem",
+        "lobby bar",
+        "transzfer Villanyra"
+      ],
+      "nearbyAttractions": [
+        "Harkanyii Gyogyffurdo (kozvetlen)",
+        "Villany borvidek (15 km)",
+        "Pecs - Vilagorookssegi varos (25 km)",
+        "Sikloos var (10 km)",
+        "Drava folyo (5 km)"
+      ],
+      "rules": [
+        "Idegenforgalmi ado kulon fizetendo",
+        "Transzfer elerheto Villanyra"
+      ],
+      "bestSeason": "aprilis-oktober (furdo egesz evben)",
+      "yearRound": false,
+      "website": "https://campingharkany.hu/",
+      "imageQuery": "harkany thermal camping villany wine"
+    },
+    {
+      "id": 10,
+      "name": "Gyula Thermal Camping",
+      "slug": "gyula-thermal-camping",
+      "category": "thermal",
+      "location": {
+        "city": "Gyula",
+        "county": "Bekes",
+        "region": "Del-Alfold",
+        "gps": {
+          "lat": 46.6460,
+          "lng": 21.2780
+        },
+        "address": "5700 Gyula, Szelso u. 16."
+      },
+      "description": "3.2 hektaros parkszeru, erdoszegu területen, Gyula udulokorzeeteben. 120 felszerelt lakokocsi hely. A varozpont 1 km-re, a Var Gyogyfurdo 700 meterre talalhato.",
+      "pricing": {
+        "range": "olcso-kozepes",
+        "priceFrom": "4000-7000 Ft/ej parcella + szemelyi dij",
+        "electricityIncluded": true,
+        "notes": "Kedvezo arak a keleti regioban."
+      },
+      "facilities": [
+        "aram",
+        "vizcsatlakozas",
+        "jatszother",
+        "etterem",
+        "bisztro",
+        "TV",
+        "mosoda",
+        "haziallat engedelyezett"
+      ],
+      "nearbyAttractions": [
+        "Gyulai Var Gyogyfurdo (700 m)",
+        "Gyulai var",
+        "Gyula belvaros",
+        "Erkel Ferenc Emlekhaz",
+        "Dob-tava horgaszto"
+      ],
+      "rules": [
+        "Haziallat engedelyezett",
+        "Csendes pihenoidoe 22:00-06:00"
+      ],
+      "bestSeason": "aprilis-oktober",
+      "yearRound": false,
+      "website": "http://gyulatermalkemping.hu/",
+      "imageQuery": "gyula castle thermal bath camping"
+    },
+    {
+      "id": 11,
+      "name": "Barack Thermal Camping, Tiszakecske",
+      "slug": "barack-thermal-camping",
+      "category": "thermal",
+      "location": {
+        "city": "Tiszakecske",
+        "county": "Bacs-Kiskun",
+        "region": "Del-Alfold",
+        "gps": {
+          "lat": 46.9340,
+          "lng": 20.0930
+        },
+        "address": "6060 Tiszakecske, Tisza-part"
+      },
+      "description": "Csendes kisvaarosi kornyezet kozvetlenul a Tisza folyo mellett. 95 turistaparcella es 20 alkandoaparcella. Ingyenes belepes a szomszedos kulteri es belteri termalmedencekbe.",
+      "pricing": {
+        "range": "olcso-kozepes",
+        "priceFrom": "5000-8000 Ft/ej parcella + szemelyi dij",
+        "electricityIncluded": true,
+        "notes": "Ingyenes termalfurdo hasznalat! Egesz evben nyitva."
+      },
+      "facilities": [
+        "aram",
+        "vizcsatlakozas",
+        "szennyvizurrites",
+        "termalmedencek (ingyenes)",
+        "wifi (egesz teruleten)",
+        "Tisza-parti fekvees"
+      ],
+      "nearbyAttractions": [
+        "Tisza folyo",
+        "Termalfurdo (kozvetlen)",
+        "Kecskemet (40 km)",
+        "Kiskunsagi Nemzeti Park"
+      ],
+      "rules": [
+        "Egesz evben nyitva"
+      ],
+      "bestSeason": "egesz evben",
+      "yearRound": true,
+      "website": "https://barackresort.hu/en",
+      "imageQuery": "tiszakecske thermal camping tisza river"
+    },
+    {
+      "id": 12,
+      "name": "Okotura Kemping, Hortobagy",
+      "slug": "okotura-kemping-hortobagy",
+      "category": "national-parks",
+      "location": {
+        "city": "Hortobagy",
+        "county": "Hajdu-Bihar",
+        "region": "Eszak-Alfold",
+        "gps": {
+          "lat": 47.5830,
+          "lng": 21.1530
+        },
+        "address": "Hortobagy kozseg, parkerdo"
+      },
+      "description": "A vilagoroksegi puszta sziveben, Hortobagy kozsegeben, mueemlekek kozeleben. Parkeerdo hatalmas fainak arnyekaban, aprilisdtol novemberig. 16 terruletegyseg (60-100 nm) elo sovenynyel elvalasztva.",
+      "pricing": {
+        "range": "olcso",
+        "priceFrom": "6000 Ft/nap (aram nelkul) vagy 8000 Ft/nap (arammal)",
+        "electricityIncluded": false,
+        "notes": "Nagyon kedvezo arak! Aram felaarban."
+      },
+      "facilities": [
+        "aram (felaron)",
+        "kozponti fozohely",
+        "mosoda",
+        "mosogatohhely",
+        "zuhanyzok",
+        "WC"
+      ],
+      "nearbyAttractions": [
+        "Hortobagyi Nemzeti Park - UNESCO Vilagoorokseg",
+        "Kilenclyuku hid",
+        "Pasztor Muzeum",
+        "Lovasbemutatatok",
+        "Darulessek (osz)",
+        "Debrecen (40 km)"
+      ],
+      "rules": [
+        "Aprilis-november nyitva",
+        "Nemzeti park szabalyait be kell tartani",
+        "Vadon kempingezes a parkban tilos"
+      ],
+      "bestSeason": "aprilis-oktober (daruleses: szeptember-oktober)",
+      "yearRound": false,
+      "website": "https://okotura.hu/",
+      "imageQuery": "hortobagy puszta national park bridge"
+    },
+    {
+      "id": 13,
+      "name": "Puszta Kemping, Hortobagy",
+      "slug": "puszta-kemping-hortobagy",
+      "category": "national-parks",
+      "location": {
+        "city": "Hortobagy",
+        "county": "Hajdu-Bihar",
+        "region": "Eszak-Alfold",
+        "gps": {
+          "lat": 47.5840,
+          "lng": 21.1510
+        },
+        "address": "Hortobagy, a 9 lyuku hid es a vizi szinpad szomszedssagaban"
+      },
+      "description": "3 hektaros, 600 fos befogadokeepessegu kemping a Hortobagy folyo mellett, arnyas fuves talajon. Szilard burkkolatu lakokocsi helyek aram- es ivoviz-csatlakozassal.",
+      "pricing": {
+        "range": "olcso",
+        "priceFrom": "4000-6000 Ft/ej parcella",
+        "electricityIncluded": true,
+        "notes": "Nagy, taagas terulet kedvezo aron."
+      },
+      "facilities": [
+        "szilard burkollat",
+        "aram",
+        "ivoviz",
+        "szennyviz urrites"
+      ],
+      "nearbyAttractions": [
+        "Kilenclyuku hid (szomszedos)",
+        "Vizi szinpad (szomszedos)",
+        "Hortobagyi Nemzeti Park",
+        "Debrecen (40 km)"
+      ],
+      "rules": [
+        "Szezonalis nyitva tartas"
+      ],
+      "bestSeason": "aprilis-oktober",
+      "yearRound": false,
+      "website": "http://www.pusztakemping.hu/",
+      "imageQuery": "hortobagy puszta camping steppe"
+    },
+    {
+      "id": 14,
+      "name": "Szilvasvarad Camping & Apartman",
+      "slug": "szilvasvarad-camping",
+      "category": "national-parks",
+      "location": {
+        "city": "Szilvasvarad",
+        "county": "Heves",
+        "region": "Eszak-Magyarorszag",
+        "gps": {
+          "lat": 48.0960,
+          "lng": 20.3940
+        },
+        "address": "Szilvasvarad, Bukki Nemzeti Park"
+      },
+      "description": "700 meterre a Szalajka-volgy bejaaratatol, 500 meterre a Lipicai Mennesudvartol. A Bukki Nemzeti Park nyugati szelen, az orsag egyik legismertebb bkuki udulohellyen.",
+      "pricing": {
+        "range": "olcso",
+        "priceFrom": "4000-6000 Ft/ej parcella",
+        "electricityIncluded": true,
+        "notes": "Aram, vizveetelezees, szennyvizurrites biztositott."
+      },
+      "facilities": [
+        "aram",
+        "vizveeteelezees",
+        "szennyvizurrites",
+        "szaniteaer blokk"
+      ],
+      "nearbyAttractions": [
+        "Szalajka-volgy es vizeses",
+        "Lipicai Menesudvar",
+        "Osemberbarlang",
+        "Bukki Nemzeti Park tuurautvonalak",
+        "Eger (25 km) - borkostolas",
+        "Aggteleki cseppkobarlang (kirkandulas)"
+      ],
+      "rules": [
+        "Szervezeett turak kerrhetoek (gyalogtura, barkostolas, Aggtelek)"
+      ],
+      "bestSeason": "aprilis-oktober",
+      "yearRound": false,
+      "website": "https://szilvasvaradcamping.hu/hu/",
+      "imageQuery": "szilvasvarad szalajka valley bükk national park"
+    },
+    {
+      "id": 15,
+      "name": "Oko Park, Szarvasko",
+      "slug": "oko-park-szarvasko",
+      "category": "national-parks",
+      "location": {
+        "city": "Szarvasko",
+        "county": "Heves",
+        "region": "Eszak-Magyarorszag",
+        "gps": {
+          "lat": 47.8380,
+          "lng": 20.3360
+        },
+        "address": "Szarvasko, Bukki Nemzeti Park labanal"
+      },
+      "description": "ADAC es ACSI minositett erdei kemping a Szarvaskoi Var labanal. Fel hektaron 17 soveennyel elvalasztott, fuves lakokocsi parcella, mindegyik 16A aram- es kabel TV csatlakozassal.",
+      "pricing": {
+        "range": "olcso",
+        "priceFrom": "4000-5000 Ft/ej parcella",
+        "electricityIncluded": true,
+        "notes": "Kedvezo arru erdei kemping ADAC minoseggel."
+      },
+      "facilities": [
+        "aram (16A)",
+        "kabel TV",
+        "szaniter blokk",
+        "erdei kornyezeet"
+      ],
+      "nearbyAttractions": [
+        "Szarvaskoi var",
+        "Bukki Nemzeti Park tuurautvonalak",
+        "Eger (15 km)",
+        "Egri var es borpincek",
+        "Szilvasvarad (20 km)"
+      ],
+      "rules": [
+        "ADAC/ACSI minositett kemping"
+      ],
+      "bestSeason": "aprilis-oktober",
+      "yearRound": false,
+      "website": "https://www.okoparkszarvasko.com/kemping",
+      "imageQuery": "szarvasko castle bükk forest camping"
+    },
+    {
+      "id": 16,
+      "name": "NOMAD Baradla Kemping, Aggtelek",
+      "slug": "nomad-baradla-kemping",
+      "category": "national-parks",
+      "location": {
+        "city": "Aggtelek",
+        "county": "Borsod-Abauj-Zemplen",
+        "region": "Eszak-Magyarorszag",
+        "gps": {
+          "lat": 48.4680,
+          "lng": 20.4960
+        },
+        "address": "Aggtelek, Baradla-barlang bejarat mellett"
+      },
+      "description": "Kozvetlenul a vilagoroksegi Baradla-cseppkobarlang bejjaarata mellett. 120 fos kemping tagas fuves teruleten. Jatszother es piknik terulet. A nemzeti park a vezereti.",
+      "pricing": {
+        "range": "olcso",
+        "priceFrom": "3000-5000 Ft/ej parcella",
+        "electricityIncluded": false,
+        "notes": "A nemzeti park uzemellteti - nagyon kedvezo arak. Barlanglatogataasi kedvezmeny!"
+      },
+      "facilities": [
+        "hideg-meleg viz",
+        "felszerelt konyha",
+        "jatszother",
+        "piknik terulet",
+        "Baradla etterem a turistaszaazsloban"
+      ],
+      "nearbyAttractions": [
+        "Baradla-cseppkobarlang - UNESCO Vilagoorokseg (kozvetlen)",
+        "Aggteleki Nemzeti Park tuurautvonalak",
+        "Josvafo",
+        "Szalonna sziklattemplom"
+      ],
+      "rules": [
+        "Barlanglatogataasi kedvezmeny a kemping vendegeinek",
+        "Nemzeti park szabalyoknak megfelelo viselkedes"
+      ],
+      "bestSeason": "majus-szeptember",
+      "yearRound": false,
+      "website": "http://anp.nemzetipark.gov.hu/?pg=menu_2762",
+      "imageQuery": "aggtelek baradla cave national park"
+    },
+    {
+      "id": 17,
+      "name": "Toparti Camping, Tiszafured",
+      "slug": "toparti-camping-tiszafured",
+      "category": "rivers-lakes",
+      "location": {
+        "city": "Tiszafured",
+        "county": "Jasz-Nagykun-Szolnok",
+        "region": "Eszak-Alfold",
+        "gps": {
+          "lat": 47.6190,
+          "lng": 20.7550
+        },
+        "address": "Tiszafured, Tisza-to part"
+      },
+      "description": "Kozvetlenul a Tisza-to parttjan, lakokocsi helyek kozvetlen to-latassssal. 16A aram, vizellatas, vegyszeres WC urrites. Minosegi szolgaltataaas.",
+      "pricing": {
+        "range": "olcso-kozepes",
+        "priceFrom": "5000-8000 Ft/ej parcella + szemelyi dij",
+        "electricityIncluded": true,
+        "notes": "Vizparti parcellak felaron."
+      },
+      "facilities": [
+        "aram (16A)",
+        "vizellatas",
+        "vegyszeres WC urrites",
+        "strand (kornyekon)",
+        "horgaszleetosseg"
+      ],
+      "nearbyAttractions": [
+        "Tisza-to vizisportok",
+        "Horgaszat a Tisza-tavon",
+        "Tiszafured belvaros",
+        "Poroszloi Ookocentrum (15 km)",
+        "Hortobagyi Nemzeti Park (30 km)"
+      ],
+      "rules": [
+        "Horgaszengedely szuukseges (helyben vasarolhato)"
+      ],
+      "bestSeason": "aprilis-oktober",
+      "yearRound": false,
+      "website": "https://toparticamping.hu/",
+      "imageQuery": "tiszafured lake tisza camping fishing"
+    },
+    {
+      "id": 18,
+      "name": "Tavirozsa Kemping, Poroszlo",
+      "slug": "tavirozsa-kemping-poroszlo",
+      "category": "rivers-lakes",
+      "location": {
+        "city": "Poroszlo",
+        "county": "Heves",
+        "region": "Eszak-Magyarorszag",
+        "gps": {
+          "lat": 47.6530,
+          "lng": 20.6640
+        },
+        "address": "Poroszlo, Tisza-to part"
+      },
+      "description": "12 lakokocsi hely es 80 satorhely kozvetlenul a Tisza-to partjan Poroszloban. Az Okokkozpont es a Delfin Kikoto szomszedssagaban. Horgaszat a kempinig sajat tavanban ingyenes.",
+      "pricing": {
+        "range": "olcso",
+        "priceFrom": "3500-5000 Ft/ej parcella",
+        "electricityIncluded": false,
+        "notes": "Ingyenes horgaszat a kemping tavanban! Egyik legolcsoobb a Tisza-to kornyeken."
+      },
+      "facilities": [
+        "lakokocsi helyek (12)",
+        "szaniter blokk",
+        "horgaszto (ingyenes)",
+        "kemping bolt"
+      ],
+      "nearbyAttractions": [
+        "Tisza-tavi Okokkozpont (szomszedos)",
+        "Delfin Kikoto",
+        "Tisza-to vizisportok",
+        "Horgaszat",
+        "Poroszlo belvaros"
+      ],
+      "rules": [
+        "Ingyenes horgaszat a kis toban",
+        "Horgaszengedely szukseges a Tisza-toohoz"
+      ],
+      "bestSeason": "aprilis-oktober",
+      "yearRound": false,
+      "website": "https://www.poroszlodelfinkikoto.hu/kemping.htm",
+      "imageQuery": "poroszlo tisza lake eco center fishing"
+    },
+    {
+      "id": 19,
+      "name": "Park Strand Kemping, Agard (Velencei-to)",
+      "slug": "park-strand-kemping-velencei-to",
+      "category": "rivers-lakes",
+      "location": {
+        "city": "Agard (Gardony)",
+        "county": "Fejer",
+        "region": "Kozep-Dunantul",
+        "gps": {
+          "lat": 47.1870,
+          "lng": 18.5920
+        },
+        "address": "Agard, Velencei-to part"
+      },
+      "description": "8 hektaaros kemping 500 meter hosszu sajat partszakasszal a Velencei-to partjan. Lakokocsi parcellak 10 000 Ft/ej (arammal). Budapesttol 50 perc autoval.",
+      "pricing": {
+        "range": "kozepes",
+        "priceFrom": "10000 Ft/ej (parcella arammal)",
+        "electricityIncluded": true,
+        "notes": "Budapest kozelsegehez kepest meg erzekeny ar."
+      },
+      "facilities": [
+        "aram",
+        "vizcsatlakozas",
+        "sajat strand (300 m, ingyenes kemping vendegeknek)",
+        "etterem",
+        "wifi"
+      ],
+      "nearbyAttractions": [
+        "Velencei-to strandok",
+        "Velencei-to vizisportok",
+        "Velence belvaros",
+        "Budapest (50 perc)",
+        "Szekesfehervar (15 km)"
+      ],
+      "rules": [
+        "Strand hasznalat ingyenes kemping vendegeknek"
+      ],
+      "bestSeason": "majus-szeptember",
+      "yearRound": false,
+      "website": "https://parkkemping.hu/en/",
+      "imageQuery": "velencei to lake velence camping beach"
+    },
+    {
+      "id": 20,
+      "name": "Keresz Kikoto Kemping",
+      "slug": "keresz-kikoto-kemping",
+      "category": "rivers-lakes",
+      "location": {
+        "city": "Tokaj kornyeke",
+        "county": "Borsod-Abauj-Zemplen",
+        "region": "Eszak-Magyarorszag",
+        "gps": {
+          "lat": 48.1200,
+          "lng": 21.4100
+        },
+        "address": "Tisza-part, Tokaj kozeleben"
+      },
+      "description": "120 feroohelyes kemping kozvetlenul a Tisza partjan. Sator es lakokocsi helyek. Elerheto kozelssegben Tokaj, Sarospatak, Nyiregyhaza. Idealis alap a Tokaji borvidek felfedezeesehez.",
+      "pricing": {
+        "range": "olcso",
+        "priceFrom": "3000-5000 Ft/ej parcella",
+        "electricityIncluded": false,
+        "notes": "Nagyon kedvezo arak. Csaladoknak is megfizethetoe."
+      },
+      "facilities": [
+        "120 ferohely",
+        "szaniter blokk",
+        "Tisza-parti fekvees",
+        "horgaszlehetoseg"
+      ],
+      "nearbyAttractions": [
+        "Tokaj borvidek - UNESCO Vilagoorokseg",
+        "Tokaji borpincek",
+        "Sarospatak var es Rakoczi muzeum",
+        "Zempleni-hegyseg tuurautvonalak",
+        "Nyiregyhaza (30 km)"
+      ],
+      "rules": [
+        "Horgaszengedely szukseges"
+      ],
+      "bestSeason": "aprilis-oktober (szuret: szeptember-oktober)",
+      "yearRound": false,
+      "website": "https://www.kereszkikoto.hu/kemping",
+      "imageQuery": "tokaj tisza river wine region camping"
+    },
+    {
+      "id": 21,
+      "name": "Szegedi Partfurdo Kemping",
+      "slug": "szegedi-partfurdo-kemping",
+      "category": "rivers-lakes",
+      "location": {
+        "city": "Szeged",
+        "county": "Csongrad-Csanad",
+        "region": "Del-Alfold",
+        "gps": {
+          "lat": 46.2480,
+          "lng": 20.1290
+        },
+        "address": "Szeged, Tisza-part"
+      },
+      "description": "A napfeny varosaban, a Tisza partjan fekvo kemping. Kozos hideg-meleg vizes szocialis blokk, fozohely, lakokocsi szennyviz urrites es vizvetel. Szeged kulttturalis es gasztronomiai kinaalata karolyul.",
+      "pricing": {
+        "range": "olcso-kozepes",
+        "priceFrom": "4000-6000 Ft/ej parcella",
+        "electricityIncluded": true,
+        "notes": "Varosi kemping kulturalis programokkal."
+      },
+      "facilities": [
+        "aram",
+        "hideg-meleg viz",
+        "fozohely",
+        "szennyviz urrites",
+        "vizvetel"
+      ],
+      "nearbyAttractions": [
+        "Szeged belvaros es Dom ter",
+        "Szegedi Szabaadteri Jatekok (nyaron)",
+        "Pick Szalami es Paprika Muzeum",
+        "Tisza-parti setaany",
+        "Opusztaszeri Nemzeti Torteneti Emlekkpark (30 km)"
+      ],
+      "rules": [
+        "Varosi kornyezet - csendes orakat be kell tartani"
+      ],
+      "bestSeason": "majus-szeptember (Szabadteri Jatekok: julius-augusztus)",
+      "yearRound": false,
+      "website": "https://szegedkemping.hu/en/main-page/",
+      "imageQuery": "szeged tisza river dom square"
+    },
+    {
+      "id": 22,
+      "name": "Szeri Kemping, Opusztaszer",
+      "slug": "szeri-kemping-opusztaszer",
+      "category": "national-parks",
+      "location": {
+        "city": "Opusztaszer",
+        "county": "Csongrad-Csanad",
+        "region": "Del-Alfold",
+        "gps": {
+          "lat": 46.4750,
+          "lng": 20.0850
+        },
+        "address": "Opusztaszer, Nemzeti Torteneti Emlekkpark mellett"
+      },
+      "description": "25 kialakitott lakookocsi hely viz- es elektromos aram csatlakozassal, 200 satorhely. A Nemzeti Tortenelmi Emlekkpark kozvetllen kozeleben, a Feszty-korkep megtekinteesehez idealis baaziis.",
+      "pricing": {
+        "range": "olcso",
+        "priceFrom": "3000-5000 Ft/ej parcella",
+        "electricityIncluded": true,
+        "notes": "Nagyon kedvezo arak, 14 fahaaz is berelheto."
+      },
+      "facilities": [
+        "aram",
+        "vizcsatlakozas",
+        "bogracsozohhely",
+        "szalonnasuto",
+        "recepccio",
+        "zaart parkolo",
+        "mosoda",
+        "Szeri Csaarda (etkezes)"
+      ],
+      "nearbyAttractions": [
+        "Opusztaszeri Nemzeti Tortenelmi Emlekkpark (kozvetlen)",
+        "Feszty-korkep",
+        "Szeged (30 km)",
+        "Kiskunsagi Nemzeti Park"
+      ],
+      "rules": [
+        "Csaaladi, csedndes kornyezet"
+      ],
+      "bestSeason": "aprilis-oktober",
+      "yearRound": false,
+      "website": "https://szallas.hu/szeri-kemping-fahaz-opusztaszer",
+      "imageQuery": "opusztaszer national memorial park hungary"
+    },
+    {
+      "id": 23,
+      "name": "Familia Kemping, Balatonoszod",
+      "slug": "familia-kemping-balatonoszod",
+      "category": "balaton",
+      "location": {
+        "city": "Balatonoszod",
+        "county": "Somogy",
+        "region": "Del-Dunantul",
+        "gps": {
+          "lat": 46.8350,
+          "lng": 17.8000
+        },
+        "address": "Balatonoszod, 700 m a szabadstrandtol"
+      },
+      "description": "50 lakookocsi befogadassara alkalmas kemping 700 meterre a szabadstrandtol. Csaladbaarat kornyezet satorhelyeekkel is.",
+      "pricing": {
+        "range": "olcso-kozepes",
+        "priceFrom": "4000-6000 Ft/ej parcella",
+        "electricityIncluded": true,
+        "notes": "Szabadstrand kozeleben - ingyenes furdees!"
+      },
+      "facilities": [
+        "aram",
+        "szanitter blokk",
+        "50 lakokocsi hely",
+        "satorhelyek"
+      ],
+      "nearbyAttractions": [
+        "Balatonoszod szabadstrand (700 m - ingyenes)",
+        "Balatonszemes",
+        "Szantodpuszta",
+        "Tihany (komp)"
+      ],
+      "rules": [
+        "Csaladbaarat kemping"
+      ],
+      "bestSeason": "junius-augusztus",
+      "yearRound": false,
+      "website": "https://www.familiacampingbalaton.hu/",
+      "imageQuery": "balatonoszod free beach balaton camping"
+    },
+    {
+      "id": 24,
+      "name": "Rev Kemping, Balatonalmadi",
+      "slug": "rev-kemping-balatonalmadi",
+      "category": "balaton",
+      "location": {
+        "city": "Balatonalmadi",
+        "county": "Veszprem",
+        "region": "Kozep-Dunantul",
+        "gps": {
+          "lat": 47.0330,
+          "lng": 18.0180
+        },
+        "address": "Balatonalmadi, Balaton-part"
+      },
+      "description": "A Balaton eszaki partjan, Balatonalmadiban. Modern kemping lakokocsi parcellakkal kozvetlenul a viizparton.",
+      "pricing": {
+        "range": "kozepes",
+        "priceFrom": "6000-10000 Ft/ej parcella",
+        "electricityIncluded": true,
+        "notes": "Arak a weboldalon online elerhetoek."
+      },
+      "facilities": [
+        "aram",
+        "vizcsatlakozas",
+        "modern szaniter blokk",
+        "strand",
+        "wifi"
+      ],
+      "nearbyAttractions": [
+        "Balatonalmadi strand",
+        "Oreg-to tanoosveny",
+        "Veszprem (15 km)",
+        "Tihany (30 km)",
+        "Balatonfured (15 km)"
+      ],
+      "rules": [
+        "Online fogladas ajanlott"
+      ],
+      "bestSeason": "majus-szeptember",
+      "yearRound": false,
+      "website": "https://revkemping.hu/en/",
+      "imageQuery": "balatonalmadi balaton north shore camping"
+    }
+  ],
+  "tips": {
+    "general": [
+      {
+        "title": "Vadon kempingezes szabalyai",
+        "content": "Magyarorszagon a vadon kempingezes (wild camping) hivatalosan tilos, kulonosen lakojarmuvel. Videki teruleeteken altalaban toleraljak, de mindig kerjen engedelyt a foldtulajjonostol. Nemzeti parkokban es vedett teruleeteken szigoruan tilos."
+      },
+      {
+        "title": "Hasznos alkalmazasok",
+        "content": "Park4Night, Campercontact, Caravanya, CamperGuru - ezek az appliikaaciok segitenek megtalalni a legjobb megallasi lehetosegeket. A Park4Night-on Magyarorszagon is talalhatunk kozosssegileg feltoltott helyeket."
+      },
+      {
+        "title": "Szezonalitas es arak",
+        "content": "Foszeezon (junius kozepetol-augusztus vege) 30%-kal magasabb araak. Az eloe- es utoszezeon (majus, szeptember-oktober) jellenntosen olcsobb es nyugodtabb. Teli szezonban (november-februar) csak a termal kempingeek tartanak nyitva."
+      },
+      {
+        "title": "Egesz eves kempingek",
+        "content": "Termalfurdo melletti kempingek altalaban egesz evben nyitva tartanak: Sarvar, Hajduszoboszlo, Barack (Tiszakecske), Heviz."
+      },
+      {
+        "title": "Horgaszat",
+        "content": "Magyarorszagon horgaszengedely szukseges. Az allaami jegy megvasarolhato online (mohosz.hu) vagy helyben. Egyes kempingekneel ingyenes horgaszati lehetooseg is van (pl. Poroszlo)."
+      },
+      {
+        "title": "Fesztivalok lakokocssival",
+        "content": "A Sziget Fesztival kulon Caravan Camping teruletet biztosit (8x6m es 10x7m parcellak). A jegy kulon vasarrolhato. Erkezees es tavozas korlatozott - egyszeri behajtas!"
+      }
+    ],
+    "budget": [
+      {
+        "title": "Legolcsobb lehetosegek",
+        "content": "Okotura Hortobagy (6000 Ft/ej), NOMAD Aggtelek (3000-5000 Ft/ej), Szeri Opusztaszer (3000-5000 Ft/ej), Tavirozsa Poroszlo (3500-5000 Ft/ej). A legtobb olcso kemping az Alfoldon es Eszak-Magyarorszagon talalhato."
+      },
+      {
+        "title": "Legjobb ertek-ar aranyy",
+        "content": "Termal kempingek ingyenes furdobeleepovel: Hajduszoboszlo (Hungarospa), Sarvar, Barack Tiszakecske. A furdobeleepo ertekee napi 3000-8000 Ft-ot is elerheti!"
+      }
+    ]
+  },
+  "legalInfo": {
+    "wildCamping": "Magyarorszagon a szabad kempingezes lakojarmuvel hivatalosan tilos. Az 1996. evi LIII. torveeny (termeszetveedelmi torveeny) es a helyi onkormaanyzati rendeleteek szabalyozzaak. Nemzeti parkokban es veedett teruleeteken fokozottan tilos es buntehteto.",
+    "tolerance": "A gyakorlatban videki teruleeteken (kulonosen az Alfoldon es Eszak-Magyarorszagon) altalaban toleraljak az ejszakaazast, ha diszkretten torteenik es nem okkoz kaart. Mindig kerjen engedelyt a foldtulajjonostol.",
+    "parking": "Lakokocsi varoosi parkolas: a legtobb magyar varosban megengeedett a normaal parkoolokban, de az ejszakaazas (szekek kirakasa, markiz kinyiitasa) mar szurkezoona. Budapest 2026-tol hetvegen is fizetos parkoolast vezet be az A es B zonakban.",
+    "tips": "Használja a Park4Night es Campercontact alkalmazasokat - a kozosseg altal feltoltott helyek sokszor a legjobb, toleralt megallasi pontokat jelzik."
+  },
+  "festivalCalendar": [
+    {
+      "name": "Sziget Fesztival",
+      "location": "Budapest, Obudai-sziget",
+      "month": "augusztus",
+      "caravanFriendly": true,
+      "notes": "Kulon Caravan Camping terulet, kulon jegy szukseges. 8x6m es 10x7m parcellak."
+    },
+    {
+      "name": "EFOTT",
+      "location": "Sukosd / valtozo helyszin",
+      "month": "julius",
+      "caravanFriendly": true,
+      "notes": "Korlatozott parkolaasi lehetooseg a helyszin kozeleben."
+    },
+    {
+      "name": "VOLT Fesztival",
+      "location": "Sopron",
+      "month": "junius",
+      "caravanFriendly": true,
+      "notes": "Kempinges es lakokocsis lehetooseg a fesztival kornyeeken."
+    },
+    {
+      "name": "Balaton Sound",
+      "location": "Zamardi",
+      "month": "julius",
+      "caravanFriendly": true,
+      "notes": "A kozeli kempingek (pl. Mirabella) hamar megtelnek - korai foglalas ajanlott."
+    },
+    {
+      "name": "Badacsonyi Borheeetek",
+      "location": "Badacsony",
+      "month": "szeptember",
+      "caravanFriendly": true,
+      "notes": "A Badacsony Camping idealis bazis. Borkostolas es gasztroesemenyek."
+    },
+    {
+      "name": "Egri Bikaver Unnep",
+      "location": "Eger",
+      "month": "julius",
+      "caravanFriendly": true,
+      "notes": "A kozeli Oko Park Szarvasko vagy Szilvasvarad kempingek hasznalhaatok baziskent."
+    }
+  ]
+}
